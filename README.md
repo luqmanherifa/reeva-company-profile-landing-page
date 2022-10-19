@@ -1,1 +1,1 @@
-# Herifa Tech: Halaman Depan Profil Perusahaan
+# Herifa Tech: Company Profile Landing Page
