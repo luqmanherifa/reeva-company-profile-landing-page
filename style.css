@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans";
+  font-family: Montserrat;
   /* outline: 1px solid red; */
 }
 
@@ -17,7 +17,7 @@
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url(img/austria-bg.jpg);
+  background-image: url(img/company-bg.jpg);
   background-size: cover;
   height: 540px;
   text-align: center;
@@ -41,15 +41,18 @@
 
 .jumbotron .display-4 {
   color: white;
-  margin-top: 150px;
-  font-weight: 100;
+  margin-top: 130px;
+  font-weight: 1000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   font-size: 40px;
   margin-bottom: 30px;
-}
-
-.jumbotron .display-4 span {
-  font-weight: 1000;
 }
 
 /* Info Panel */
@@ -168,8 +171,8 @@
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #8a6fdf !important;
-  border-color: #8a6fdf;
+  background-color: #30c0e8 !important;
+  border-color: #30c0e8;
 }
 
 /* Desktop Version */
